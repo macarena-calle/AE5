@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{listings}
+
+\title{Informe: Algoritmo}
+\author{Macarena Calle }
+\date{10-052025}
+\begin{document}
+
+\maketitle
+
+\section{Descripcion del algoritmo}
+El algoritmo fue creado por Macarena Calle, con el objetivo de completar su tarea de programacion. La funcion del algoritmo es verificar si un numero es primo o no. Si el numero no cumple con las condiciones de un numero primo (es decir, no es unicamente divisible por 1 y por si mismo )entonces la funcion va a retornar False y sino retornara True.
+\section{Algoritmo}
+\begin{lstlisting}
+def primos(a):
+     nuevo= int(a)
+     for i in range (2,nuevo):
+        if nuevo%i==0:
+            return False
+    return True
+\end{lstlisting}
+\end{document}
